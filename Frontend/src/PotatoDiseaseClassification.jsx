@@ -23,7 +23,7 @@ function PotatoDiseaseClassification() {
     formData.append("file", image);
 
     try {
-      const response = await fetch("http://localhost:8000/predict", {
+      const response = await fetch("https://potato-disease-classification-jbau.onrender.com/predict", {
         method: "POST",
         body: formData,
       });

@@ -1,9 +1,7 @@
 import PotatoDiseaseClassification from "./PotatoDiseaseClassification";
 
-
-function App() {
-  return;
-  <PotatoDiseaseClassification />;
-}
+const App = () => {
+    return <PotatoDiseaseClassification />;
+};
 
 export default App;

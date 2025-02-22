@@ -1,4 +1,3 @@
-import time
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -10,8 +9,7 @@ import tensorflow as tf
 app = FastAPI()
 
 origins = [
-    "http://localhost",
-    'http://localhost:5173',
+    '*'
 ]
 app.add_middleware(
     CORSMiddleware,
@@ -39,7 +37,6 @@ async def predict(
 ):
     image = read_file_as_image(await file.read())
     img_batch = np.expand_dims(image, 0)
-    # time.sleep(3)
 
     predictions = MODEL.predict(img_batch)
 

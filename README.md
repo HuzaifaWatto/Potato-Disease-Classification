@@ -39,15 +39,6 @@ Make sure you installed node v22+ (lower version possibly run but did'nt checked
 
 ---
 
-## 🧑‍💻 Connect with Me
-
-For more projects and updates, follow me on:  
-- **Medium:** [huzaifawatto](https://medium.com/@huzaifawatto)  
-- **Kaggle:** [huzaifawatto](https://www.kaggle.com/huzaifawatto)  
-- **GitHub:** [HuzaifaWatto](https://github.com/HuzaifaWatto)
-
----
-
 ## 🔗 Medium Blog
 
 I have documented the entire process, including dataset insights, model design, training, and evaluation, in this detailed **Medium blog post**:  
@@ -59,3 +50,14 @@ I have documented the entire process, including dataset insights, model design, 
 
 For a **step-by-step explanation** of the project, check out my YouTube video:  
 ▶️ [Watch the YouTube Video](https://youtu.be/tCKP7PN3vpQ?si=BuN5rZ1v4BxuSUsR)
+
+---
+
+## 🧑‍💻 Connect with Me
+
+For more projects and updates, follow me on:  
+- **Medium:** [huzaifawatto](https://medium.com/@huzaifawatto)  
+- **Kaggle:** [huzaifawatto](https://www.kaggle.com/huzaifawatto)  
+- **GitHub:** [HuzaifaWatto](https://github.com/HuzaifaWatto)
+
+---
